@@ -1,0 +1,51 @@
+Anatomy of a Java Program
+
+Function:
+· A block of code that performs a task
+· What it looks like:
+
+ReturnType Name() {
+  ...
+}
+
+· If a function returns nothing, it's return type is void
+· Every Java program should have at least one function.
+  - i.e. main()
+
+ 
+Class:
+· A container of one or more functions
+· What it looks like:
+  class Main {
+
+    ReturnType Name() {
+      ...
+    }
+
+    main() {
+      ...
+    }
+  }
+
+Note: a function that is part of a class is known as a method
+
+Note: classes and functions in Java need to have access modifiers defined.
+· This looks like:
+  public class Main {
+
+    public void main() {
+      ...
+    }
+
+    public ReturnType Name() {
+      ...
+    }
+  } 
+
+Note: when naming classes, use the PascalNamingConvention
+Note: when naming a method, use camelNamingConvention
+
+
+
+
+Your First Java Program
